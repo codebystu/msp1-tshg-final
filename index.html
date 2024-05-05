@@ -5,39 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/cosmo/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>The Self Help Group</title>
 </head>
 <body>
     <!--Header with logo and menu fixed to top-->
-    <header>
+    <header class="fixed-top">
         <a href="index.html">
             <h1 id="logo">The Self Help Group</h1>
         </a>
-    <div class="center">
-        <ul id="menu">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="#">Listen</a>
-            </li>
-            <li>
-                <a href="#">Shop</a>
-            </li>
-            <li>
-                <a href="#">Shows</a>
-            </li>
-        </ul>
-    </div>
-
+        <div class="center">
+            <ul id="menu">
+                <li>
+                    <a href="index.html" class="button">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Listen</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Shows</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <!--End Header-->
 
-    <!--Callout to buy new album with cover as hero image-->
-        <div id="hero-image">
-            <img src="assets/images/dream.jpg" alt="album cover for Dream of a Ghost">
+    <!--hero image with callout to buy or stream new album
+    code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity-->
+        <div class="hero-image">
+            <img src="assets/images/tshgbanner.jpg" alt="band members standing in a row wearing sunglasses and baseball caps" class="image">
+            <div class="callout">
+                <div class="callout-text">
+                    <h2 class="title">Dream of a Ghost</h2>
+                    <h6>available now</h6>
+                    <h4><a href="#" class="button">Stream / Download</a></h4>
+                </div>
+            </div>
         </div>
     <!--End Callout-->
     <section>
