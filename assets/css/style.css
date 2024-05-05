@@ -159,6 +159,22 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     line-height: 75px;
 }
 
+/*---------------------------------------footer*/
+
+footer {
+    height: 75px;
+    background-color: red;
+    margin-bottom: 0;
+
+}
+
+footer div {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+}
+
 /*---------------------------------------responsive styling header*/
 
 
@@ -352,7 +368,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     .quote {
         height: 150px;
         width: 30%;
-        background-color: #ffffff;
         text-align: center;
     }
 
@@ -370,7 +385,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     .quote {
         height: 150px;
         width: 35%;
-        background-color: #ffffff;
         text-align: center;
     }
 
@@ -389,7 +403,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     .quote {
         height: 150px;
         width: 40%;
-        background-color: #ffffff;
         text-align: center;
     }
 
@@ -427,7 +440,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     .quote {
         height: 150px;
         width: 50%;
-        background-color: #ffffff;
         text-align: center;
     }
 
