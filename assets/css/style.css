@@ -300,6 +300,7 @@ footer div {
         font-size: 30%;
         line-height: 75px;
     }
+}    
 
 @media screen and (max-width: 1228px) {
     .quote {
@@ -470,4 +471,4 @@ footer div {
         font-family: "Sintony", sans-serif;
         font-size: 30%;
     }
-}
+} 
