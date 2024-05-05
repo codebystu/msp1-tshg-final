@@ -29,7 +29,7 @@ header {
 }  
 
 #logo {
-    font-family: "Sintony", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 300%;
     margin-left: 20px;
@@ -66,7 +66,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 .hero-image {
     margin-top: 75px;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,9 +82,9 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 .callout {
-    transition: 3s ease;
+    transition: 2s ease;
     opacity: 0;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -101,9 +101,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
   }
 
   .callout-text {
+    background-color: antiquewhite;
     color: slategrey;
-    font-size: 16px;
-    padding: 16px 32px;
   }
 
   .button {
@@ -117,7 +116,50 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
-/*---------------------------------------responsive styling */
+/*---------------------------------------Reviews section */
+
+#reviews {
+    width: 100%;
+    max-width: 1800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quote {
+    height: 300px;
+    width: 20%;
+    text-align: center;
+}
+
+.bob {
+    float: left;
+    margin-left: 25%;
+}
+
+.paul {
+    float: right;
+    margin-right: 25%;
+}
+
+.quote-text {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 300%;
+    line-height: 75px;
+}
+
+.quote-by {
+    font-family: "Sintony", sans-serif;
+    font-size: 50%;
+    line-height: 75px;
+}
+
+.quote-from {
+    font-family: "Sintony", sans-serif;
+    font-size: 30%;
+    line-height: 75px;
+}
+
+/*---------------------------------------responsive styling header*/
 
 
 @media screen and (max-width: 800px) {
@@ -157,3 +199,263 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     
 }    
 
+/*---------------------------------------responsive styling reviews section
+
+@media screen and (max-width: 1200px) {
+    .quote {
+        height: 300px;
+        width: 30%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 15%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .quote {
+        height: 300px;
+        width: 35%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 10%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 842px) {
+    .quote {
+        height: 300px;
+        width: 40%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 5%;
+    }
+    
+} */
+
+@media screen and (max-width: 1477px) {
+    .quote {
+        height: 200px;
+        width: 20%;
+        text-align: center;
+    }
+    .quote-text {
+        font-family: "Dancing Script", sans-serif;
+        font-size: 250%;
+        line-height: 75px;
+    }
+    
+    .quote-by {
+        font-family: "Sintony", sans-serif;
+        font-size: 45%;
+        line-height: 75px;
+    }
+    
+    .quote-from {
+        font-family: "Sintony", sans-serif;
+        font-size: 30%;
+        line-height: 75px;
+    }
+
+@media screen and (max-width: 1228px) {
+    .quote {
+        height: 200px;
+        width: 22%;
+        text-align: center;
+    }
+    .quote-text {
+        font-family: "Dancing Script", sans-serif;
+        font-size: 250%;
+        line-height: 50px;
+    }
+    
+    .quote-by {
+        font-family: "Sintony", sans-serif;
+        font-size: 45%;
+        line-height: 50px;
+    }
+    
+    .quote-from {
+        font-family: "Sintony", sans-serif;
+        font-size: 30%;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    .quote {
+        height: 200px;
+        width: 25%;
+        text-align: center;
+    }
+    .bob {
+        float: left;
+        margin-left: 20%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    .quote-text {
+        font-family: "Dancing Script", sans-serif;
+        font-size: 230%;
+        line-height: 50px;
+    }
+    
+    .quote-by {
+        font-family: "Sintony", sans-serif;
+        font-size: 40%;
+        line-height: 50px;
+    }
+    
+    .quote-from {
+        font-family: "Sintony", sans-serif;
+        font-size: 30%;
+    }
+}
+
+
+
+@media screen and (max-width: 903px) {
+    .quote {
+        height: 150px;
+        width: 30%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 10%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 762px) {
+    .quote {
+        height: 150px;
+        width: 35%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 10%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .quote {
+        height: 150px;
+        width: 40%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: left;
+        margin-left: 5%;
+    }
+    
+    .paul {
+        float: right;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .quote-text {
+        font-family: "Dancing Script", sans-serif;
+        font-size: 200%;
+        line-height: 50px;
+    }
+    
+    .quote-by {
+        font-family: "Sintony", sans-serif;
+        font-size: 40%;
+        line-height: 50px;
+    }
+    
+    .quote-from {
+        font-family: "Sintony", sans-serif;
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .quote {
+        height: 150px;
+        width: 50%;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .bob {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .paul {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quote-text {
+        font-family: "Dancing Script", sans-serif;
+        font-size: 200%;
+        line-height: 30px;
+    }
+    
+    .quote-by {
+        font-family: "Sintony", sans-serif;
+        font-size: 40%;
+        line-height: 30px;
+    }
+    
+    .quote-from {
+        font-family: "Sintony", sans-serif;
+        font-size: 30%;
+    }
+}
