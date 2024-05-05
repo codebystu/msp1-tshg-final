@@ -163,17 +163,46 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 footer {
     height: 75px;
-    background-color: red;
+    width: 100%;
     margin-bottom: 0;
 
 }
 
 footer div {
-    display: inline-block;
-    width: 33%;
+    width: 100%;
+    line-height: 25px;
     text-align: center;
-    text-decoration: none;
 }
+
+.contact {
+
+}
+
+.copyright {
+   
+}
+
+.socials {
+
+    height: 25px;
+    float: left;
+}
+
+.media-links {
+   width: 300px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.media-links li {
+    font-size: 120%;
+    list-style-type: none;
+    float: left;
+    padding-left: 30px;
+
+}
+
+
 
 /*---------------------------------------responsive styling header*/
 
@@ -212,70 +241,9 @@ footer div {
     .hero-image{
         margin-top: 120px;
     }
-    
 }    
-
-/*---------------------------------------responsive styling reviews section
-
-@media screen and (max-width: 1200px) {
-    .quote {
-        height: 300px;
-        width: 30%;
-        background-color: #ffffff;
-        text-align: center;
-    }
-
-    .bob {
-        float: left;
-        margin-left: 15%;
-    }
     
-    .paul {
-        float: right;
-        margin-right: 15%;
-    }
-    
-}
-
-@media screen and (max-width: 1000px) {
-    .quote {
-        height: 300px;
-        width: 35%;
-        background-color: #ffffff;
-        text-align: center;
-    }
-
-    .bob {
-        float: left;
-        margin-left: 10%;
-    }
-    
-    .paul {
-        float: right;
-        margin-right: 10%;
-    }
-    
-}
-
-@media screen and (max-width: 842px) {
-    .quote {
-        height: 300px;
-        width: 40%;
-        background-color: #ffffff;
-        text-align: center;
-    }
-
-    .bob {
-        float: left;
-        margin-left: 5%;
-    }
-    
-    .paul {
-        float: right;
-        margin-right: 5%;
-    }
-    
-} */
+/*---------------------------------------responsive styling review quotes*/    
 
 @media screen and (max-width: 1477px) {
     .quote {
@@ -382,6 +350,7 @@ footer div {
         margin-right: 10%;
     }
 }
+
 @media screen and (max-width: 762px) {
     .quote {
         height: 150px;
@@ -455,6 +424,7 @@ footer div {
         margin-left: auto;
         margin-right: auto;
     }
+
     .quote-text {
         font-family: "Dancing Script", sans-serif;
         font-size: 200%;
@@ -472,3 +442,4 @@ footer div {
         font-size: 30%;
     }
 } 
+
