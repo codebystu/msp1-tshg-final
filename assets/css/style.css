@@ -40,6 +40,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 300%;
+    text-transform: uppercase;
     margin-left: 20px;
     color: slategrey;
     float: left;
@@ -71,10 +72,12 @@ header a {
 /*-----------------------------------Hero image and callout 
 code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity 
 ---------------------------------------------------------------------------------------------------*/
-
-.hero-image {
-    position: relative;
+.hero-image{
     margin-top: 75px;
+}
+
+.image-overlay {
+    position: relative;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -101,11 +104,11 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
   }
 
-  .hero-image:hover .image {
+  .image-overlay:hover .image {
     opacity: 0.3;
   }
   
-  .hero-image:hover .callout {
+  .image-overlay:hover .callout {
     opacity: 1;
   }
 
@@ -132,6 +135,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 .quote {
     height: 300px;
@@ -173,8 +177,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
     text-align: center;
+    margin-top: 40px;
     
 }
 
@@ -186,18 +190,25 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 /*---------------------------------------Shop page */
 
 .cover-container {
-    background-color: yellow;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    margin-top: 40px;
 }
 
 .cover {
+    position: relative;
     max-height: 100%;
     max-width: 100%;
     border-radius: 8px;
 
+}
+
+.add-to-cart {
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px;
+   
 }
 
 
