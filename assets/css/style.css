@@ -163,6 +163,18 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     line-height: 75px;
 }
 
+/*---------------------------------------Listen page */
+
+.video {
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 50px;
+}
+
+.video-height {
+    height: 350px;
+}
 
 /*---------------------------------------footer*/
 
@@ -440,3 +452,18 @@ footer div {
     }
 } 
 
+/*---------------------------------------responsive Listen page */
+
+@media screen and (max-width: 850px) {
+
+    .video-height {
+        height: 250px;
+    }  
+}
+
+@media screen and (max-width: 550px) {
+
+    .video-height {
+        height: 150px;
+    }  
+}
