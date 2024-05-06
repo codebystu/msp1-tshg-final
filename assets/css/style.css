@@ -166,10 +166,11 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 /*---------------------------------------Listen page */
 
 .video {
-    width: 100%;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .video-height {
