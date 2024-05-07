@@ -49,7 +49,7 @@
         </div>
     <!--End Callout-->
         <div class="live-info">
-            <h3>See us live</h3>
+            <h3>Show Info</h3>
             <p>Follow us on social media for show dates, or sign up below to get them in your inbox</p>
         </div>
     <div class="show-image-container">
@@ -66,14 +66,15 @@
     </div>  
 
 <!-- sign up for mailing list-->  
-
+<!-- form element would have attributes method="post" action="target path for data" to collect the data and add to mailing list
+updated validation syntax with help from https://verifalia.com/help/email-verification-widget/how-to-add-email-validation-in-html-forms-->
 <div class="form">
-    <form method="post" action="#" class="sign-up">
+    <form method="get" action="mailinglist.html" target="_blank" class="sign-up">
         <label for="email">Submit your email address below</label>
         <br>
-        <input type="text" id="email" name="email" placeholder="eg Bob@ineedhelp.com">
+        <input type="email" id="email" name="email" placeholder="e.g. Me@Ineedhelp.com" required>
         <br>
-        <input type="submit" class="button email-submit">
+        <input type="submit"  value="submit" class="button email-submit">
     </form>
 </div>
     

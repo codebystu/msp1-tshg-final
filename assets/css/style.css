@@ -16,6 +16,7 @@ body {
     color: slategrey;
 }
 
+/* code from https://www.w3schools.com/howto/howto_css_image_bw.asp*/
 img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -119,6 +120,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
   .button {
     text-decoration: none;
     color: inherit;
+    background-color: antiquewhite;
   }
 
   .button:hover {
@@ -228,8 +230,9 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 #email {
     background-color: antiquewhite;
-    text-decoration: underline;
     padding: 5px;
+    border: 1px solid slategrey;
+    border-radius: 5px;
 
 }
 
@@ -272,6 +275,30 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-right: auto;
     margin-top: 40px;
 }
+
+/*---------------------------------------mailinglist.html styling */
+
+.mailing-image {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.mailing-image img {
+    display: block;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.close {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
 
 
 /*---------------------------------------footer*/
