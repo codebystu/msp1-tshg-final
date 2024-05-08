@@ -176,6 +176,14 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     line-height: 75px;
 }
 
+#history {
+    text-align: center;
+    font-size: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*---------------------------------------Listen page */
 
 .video {
