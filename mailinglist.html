@@ -53,11 +53,14 @@
  <div class="mailing-image callout-text">
     <p>Congratulations</p>
     <p>you have found the hidden bonus track!</p>
-    <p>The Make Believe Band</p> 
+    <p>The Make Believe Band</p>
+ </div> 
 
 <!--audioplayer code from   https://www.w3schools.com/html/html5_audio.asp     
     and https://stackoverflow.com/questions/42517144/how-do-i-remove-the-download-option-in-the-html5-audio-tag -->    
-    <audio controls controlsList="nodownload" src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio>   
+   <div id="audio-container">
+    <audio controls controlsList="nodownload" src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio> 
+</div>  
     <div class="mailing-image">
         <img src="assets/images/bandpixel.jpg" alt="">
      </div>
@@ -111,7 +114,7 @@
             <a href="contact.html" class="button">Contact Us</a>
         </div>
         <div class="copyright">
-            <i class="fa-regular fa-copyright"></i> Copyright 2024 The Self Help Group
+           <p><i class="fa-regular fa-copyright"></i> Copyright 2024 The Self Help Group</p> 
         </div>
     </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>

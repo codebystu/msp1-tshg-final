@@ -310,9 +310,19 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
 }
 
-/* .take-me-home {
-    font-size: 70%;
-} */
+/* https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive */
+
+#audio-container {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+audio {
+    max-height: 100%;
+           max-width: 100%;
+           margin: auto;
+           object-fit: contain;
+}
 
 /*---------------------------------------contact form*/
 
