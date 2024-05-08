@@ -292,12 +292,12 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 .mailing-image {
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .mailing-image img {
     display: block;
-    max-width: 30%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
