@@ -103,6 +103,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    color: inherit;
+
   }
 
   .image-overlay:hover .image {
@@ -113,9 +115,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     opacity: 1;
   }
 
-  .callout-text {
-    color: slategrey;
-  }
 
   .button {
     text-decoration: none;
@@ -340,6 +339,13 @@ footer div {
 
 /*---------------------------------------responsive styling header*/
 
+@media screen and (max-width: 1000px) {
+    .callout-text {
+        font-size: 80%;
+        line-height: 10px;
+    }
+}
+
 
 @media screen and (max-width: 800px) {
     #logo {
@@ -375,7 +381,19 @@ footer div {
     .hero-image{
         margin-top: 120px;
     }
+
+    .callout-text {
+        font-size: 60%;
+        line-height: 6px;
+    }
 }    
+
+@media screen and (max-width: 450px) {
+
+    .callout-text {
+        line-height: 2px;
+    }
+}
     
 /*---------------------------------------responsive styling review quotes*/    
 
