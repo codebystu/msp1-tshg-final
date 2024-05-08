@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/cosmo/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/1019d0d286.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<title>The Self Help Group</title>
+</head>
+<body>
+   <!--Header with logo and menu fixed to top-->
+   <header class="fixed-top">
+    <a href="index.html" class="button">
+        <h1 id="logo">The Self Help Group</h1>
+    </a>
+    <div class="center">
+        <ul id="menu">
+            <li>
+                <a href="index.html" class="button active">Home</a>
+            </li>
+            <li>
+                <a href="listen.html" class="button">Listen</a>
+            </li>
+            <li>
+                <a href="shop.html" class="button">Shop</a>
+            </li>
+            <li>
+                <a href="shows.html" class="button">Shows</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--End Header-->
+
+<!--hero image with callout to buy or stream new album
+code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity-->
+    <div class="image-overlay hero-image">
+        <img src="assets/images/tshgbanner.jpg" alt="band members standing in a row wearing sunglasses and baseball caps" class="image">
+        <div class="callout">
+            <div class="callout-text">
+                <p>Dream of a Ghost</p>
+                <p>available now</p>
+                <p><a href="#" class="button add-to-cart">Stream / Download</a></>
+            </div>
+        </div>
+    </div>
+<!--End Callout-->   
+
+</div>
+<div class="mailing-image">
+    <p>Our online store is still under construction</p>
+    <p>Visit our Bandcamp page and you can make a purchase today</p>
+    <a href="https://twitter.com/thegroupies" target="_blank" class="button">
+        <i class="fa-brands fa-x-twitter">Bandcamp</i>
+    </a>
+   </div>
+ <div class="mailing-image">
+    <img src="assets/images/swapheads.jpg" alt="">
+ 
+  
+ 
+<hr class="end-page-border">
+    <footer>
+<!--Social Media Links-->               
+        <div class="socials">    
+          <ul class="media-links">
+                <li>
+                    <a href="https://www.facebook.com/theselfhelpgroup" target="_blank" class="button">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/thegroupies" target="_blank" class="button">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/theselfhelpgroup/" target="_blank" class="button">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://theselfhelpgroup.bandcamp.com/" target="_blank" class="button">
+                        <i class="fa-brands fa-bandcamp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@TheSelfHelpGroup" target="_blank" class="button">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/5p8d8s6tNOBYt7W9CZ9giU" target="_blank" class="button">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://music.apple.com/us/artist/the-self-help-group/591881482" target="_blank" class="button">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>    
+<!--End Social Media Links-->        
+        <div class="contact">
+            <a href="contact.html" class="button">Contact Us</a>
+        </div>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright"></i> Copyright 2024 The Self Help Group
+        </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>
