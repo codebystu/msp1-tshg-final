@@ -231,7 +231,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     padding-top: 10px;
 }
 
-#email {
+.form-field {
     background-color: antiquewhite;
     padding: 5px;
     border: 1px solid slategrey;
@@ -292,6 +292,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     max-width: 30%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 .close {
@@ -301,7 +302,30 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
 }
 
+.take-me-home {
+    font-size: 70%;
+}
 
+/*---------------------------------------contact form*/
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form label {
+    padding-top: 10px;
+}
+
+.message-box { 
+    width: 60%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid slategrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 80%;  
+} 
 
 
 /*---------------------------------------footer*/
