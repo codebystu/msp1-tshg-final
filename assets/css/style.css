@@ -107,6 +107,10 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
   }
 
+  .callout-text {
+    font-size: 200%;
+  }
+
   .image-overlay:hover .image {
     opacity: 0.3;
   }
@@ -191,7 +195,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 /*---------------------------------------Shop page */
 
 .cover-container {
-    width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -200,7 +204,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 .cover {
     position: relative;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 8px;
 
 }
