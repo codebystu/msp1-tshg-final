@@ -223,7 +223,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 #live-info {
     max-width: 80%;
-    height: 300px;
+    height: 250px;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -292,13 +292,13 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 /*---------------------------------------mailinglist.html styling */
 
-.mailing-image {
+#mailing-image {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.mailing-image img {
+#mailing-image img {
     display: block;
     max-width: 50%;
     margin-left: auto;
@@ -312,6 +312,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-top: 10px;
     text-align: center;
 }
+
+
 
 /* https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive */
 
@@ -372,7 +374,7 @@ footer div {
 
 .socials {
 
-    height: 25px;
+    height: 40px;
     float: left;
 }
 
@@ -388,6 +390,14 @@ footer div {
     float: left;
     padding-left: 30px;
 
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.copyright {
+    margin-top: 10px;
 }
 
 
@@ -664,4 +674,27 @@ footer div {
     .video-height {
         height: 150px;
     }  
+}
+
+/*---------------------------------------responsive mailinglist page */
+
+@media screen and (max-width: 750px) {
+
+    #mailing-image img{
+        display: none;
+
+    }
+
+    #easter-egg {
+        margin-top: 150px;
+    }
+
+    #hero-image img {
+        display: none;
+    }
+
+    #mail-call p {
+        display: none;
+    }
+    
 }
