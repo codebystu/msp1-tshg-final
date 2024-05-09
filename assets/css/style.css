@@ -698,3 +698,15 @@ footer div {
     }
     
 }
+
+/*---------------------------------------responsive shows page */
+
+@media screen and (max-width: 750px) {
+    .show-image-container img {
+        display: none;
+    }
+
+    .festy img {
+        display: none;
+    }
+}
