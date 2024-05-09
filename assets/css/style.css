@@ -352,6 +352,26 @@ audio {
   font-size: 80%;  
 } 
 
+/*---------------------------------------contactconfirm */
+
+#message {
+    margin-top: 40px;
+}
+
+#contact-image {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contact-image img {
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
 /*---------------------------------------shopconfirm */
 
 .band-store {
@@ -702,6 +722,15 @@ footer div {
     
 }
 
+/*---------------------------------------responsive mailinglist page */
+
+@media screen and (max-width: 750px) {
+
+    #contact-image img{
+        display: none;
+
+    }
+
 /*---------------------------------------responsive shows page */
 
 @media screen and (max-width: 750px) {
@@ -713,3 +742,4 @@ footer div {
         display: none;
     }
 }
+
