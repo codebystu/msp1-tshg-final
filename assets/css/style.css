@@ -191,7 +191,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-right: auto;
     text-align: center;
     margin-top: 40px;
-    
 }
 
 .video-height {
@@ -199,8 +198,16 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     border-radius: 8px;
 }
 
+#video-description {
+    margin-top: 40px;
+}
+
 .align-center {
     text-align: center;
+}
+
+.larger {
+    font-size: 300%;
 }
 
 /*---------------------------------------Shop page */
