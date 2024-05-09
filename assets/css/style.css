@@ -208,43 +208,14 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 .larger {
     font-size: 300%;
+    padding: 10px 10px;
+    margin: 20px 20px;
 }
 
 /*---------------------------------------Shop page */
 
-#shopfront img {
-    border: 1px solid #ddd; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 300px; /* Set a small width */
+#shop-container {
     margin-top: 40px;
-  }
-  
-  /* Add a hover effect (blue shadow) */
-  #shopfront img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-
-.cover-container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-}
-
-.cover {
-    position: relative;
-    max-height: 100%;
-    max-width: 50%;
-    border-radius: 8px;
-
-}
-
-.add-to-cart {
-    background-color: antiquewhite;
-    padding: 5px;
-    border-radius: 5px;
-   
 }
 
 /*---------------------------------------Shows page*/
