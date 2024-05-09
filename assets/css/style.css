@@ -645,8 +645,8 @@ footer div {
 
 @media screen and (max-width: 491px) {
     .quote {
-        height: 150px;
-        width: 50%;
+        height: 100px;
+        width: 60%;
         text-align: center;
     }
 
@@ -671,13 +671,9 @@ footer div {
     .quote-by {
         font-family: "Sintony", sans-serif;
         font-size: 40%;
-        line-height: 30px;
+        line-height: 20px;
     }
-    
-    .quote-from {
-        font-family: "Sintony", sans-serif;
-        font-size: 30%;
-    }
+
 } 
 
 /*---------------------------------------responsive Listen page */
