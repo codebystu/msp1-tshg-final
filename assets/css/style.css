@@ -171,11 +171,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     line-height: 50px;
 }
 
-.quote-from {
-    font-family: "Sintony", sans-serif;
-    font-size: 50%;
-    line-height: 50px;
-}
 
 #history {
     text-align: center;
@@ -499,12 +494,7 @@ footer div {
         font-size: 45%;
         line-height: 50px;
     }
-    
-    .quote-from {
-        font-family: "Sintony", sans-serif;
-        font-size: 30%;
-        line-height: 75px;
-    }
+
 }    
 
 @media screen and (max-width: 1228px) {
@@ -525,11 +515,7 @@ footer div {
         line-height: 50px;
     }
     
-    .quote-from {
-        font-family: "Sintony", sans-serif;
-        font-size: 30%;
-        line-height: 50px;
-    }
+
 }
 
 @media screen and (max-width: 1123px) {
@@ -562,10 +548,7 @@ footer div {
         line-height: 50px;
     }
     
-    .quote-from {
-        font-family: "Sintony", sans-serif;
-        font-size: 30%;
-    }
+
 }
 
 
@@ -636,11 +619,7 @@ footer div {
         font-size: 40%;
         line-height: 50px;
     }
-    
-    .quote-from {
-        font-family: "Sintony", sans-serif;
-        font-size: 30%;
-    }
+
 }
 
 @media screen and (max-width: 491px) {
