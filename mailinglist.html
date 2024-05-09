@@ -57,13 +57,16 @@
  </div> 
 
 <!--audioplayer code from   https://www.w3schools.com/html/html5_audio.asp     
-    and https://stackoverflow.com/questions/42517144/how-do-i-remove-the-download-option-in-the-html5-audio-tag -->    
+    and https://stackoverflow.com/questions/42517144/how-do-i-remove-the-download-option-in-the-html5-audio-tag 
+    currently unable to include  controlsList="nodownload" in the audio element as does not pass w3c validation 
+    due to it not yet being supported on all browsers, this boolean blocklist code would be desirable in this 
+    instance as prevents users being able to download without paying-->    
    <div id="audio-container">
-    <audio controls controlsList="nodownload" src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio> 
+    <audio controls src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio> 
 </div>  
-    <!-- <div id="mailing-image">
+    <div id="mailing-image">
         <img src="assets/images/bandpixel.jpg" alt="">
-     </div> -->
+     </div>
      <div id="signed" class="align-center">
         <p>Thanks for signing up</p>
         <p>We hope to see you soon</p>
