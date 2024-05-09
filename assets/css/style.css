@@ -124,6 +124,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-decoration: none;
     color: inherit;
     background-color: antiquewhite;
+   
   }
 
   .button:hover {
@@ -220,6 +221,14 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 
 /*---------------------------------------Shows page*/
 
+#live-info {
+    max-width: 80%;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .form {
     max-width: 100%;
     height: 100px;
@@ -242,7 +251,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 .email-submit {
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 5px;
     border-radius: 5px;
 }
