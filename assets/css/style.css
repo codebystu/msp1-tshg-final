@@ -207,10 +207,20 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     font-size: 320%;
 }
 
-/*---------------------------------------Shop page */
+/*---------------------------------------Stream page */
 
-#shop-container {
+#album-container {
+    text-align: center;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#album-container img {
+    display: block;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 /*---------------------------------------Shows page*/
@@ -283,6 +293,10 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 /*---------------------------------------mailinglist.html styling */
+
+#easter-egg {
+    margin-top: 40px;
+}
 
 #mailing-image {
     text-align: center;
@@ -362,7 +376,7 @@ audio {
     border-radius: 5px;
 }
 
-/*---------------------------------------shopconfirm */
+/*---------------------------------------stream */
 
 .band-store {
     font-size: 200%;
@@ -676,7 +690,7 @@ footer div {
 }
 
 /*---------------------------------------responsive mailinglist page */
-
+/* 
 @media screen and (max-width: 750px) {
 
     #mailing-image img{
@@ -695,19 +709,19 @@ footer div {
     #mail-call p {
         display: none;
     }
-}
+} */
 
 /*---------------------------------------responsive mailinglist page */
-
+/* 
 @media screen and (max-width: 750px) {
 
     #contact-image img{
         display: none;
     }
-}
+} */
 
 /*---------------------------------------responsive shows page */
-
+/* 
 @media screen and (max-width: 750px) {
     .show-image-container img {
         display: none;
@@ -716,5 +730,5 @@ footer div {
     .festy img {
         display: none;
     }
-}
+} */
 
