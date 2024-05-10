@@ -15,7 +15,7 @@ body {
     color: slategrey;
 }
 
-/* code from https://www.w3schools.com/howto/howto_css_image_bw.asp*/
+/* make all images black and white - code from https://www.w3schools.com/howto/howto_css_image_bw.asp*/
 img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -104,7 +104,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
     text-wrap: nowrap;
     color: inherit;
-
   }
 
   .callout-text {
