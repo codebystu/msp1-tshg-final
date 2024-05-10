@@ -175,7 +175,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-right: auto;
 }
 
-/*---------------------------------------Listen page */
+/*---------------------------------------watch page */
 
 #video-container {
     max-width: 100%;
@@ -321,8 +321,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
 }
 
-/*thanks to -  https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive fro the below code froo resizing 
-the audio player for smaller screens*/
+/*code to resize audio player from -  https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive */
 
 #audio-container {
     width: 200px;
@@ -337,7 +336,7 @@ audio {
 }
 
 /*---------------------------------------contact form
-for styling help used https://www.w3schools.com/howto/howto_css_stacked_form.asp*/
+for message-box styling used https://www.w3schools.com/howto/howto_css_stacked_form.asp*/
 
 .contact-form {
     text-align: center;
@@ -667,7 +666,7 @@ footer div {
 
 } 
 
-/*---------------------------------------responsive Listen page */
+/*---------------------------------------responsive watch page */
 
 @media screen and (max-width: 850px) {
 
