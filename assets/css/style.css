@@ -235,7 +235,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 .sign-up {
-    width: 300px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
@@ -251,6 +251,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 .email-submit {
     margin-top: 20px;
     padding: 5px;
+    border: 1px solid slategrey;
     border-radius: 5px;
 }
 
@@ -348,7 +349,7 @@ audio {
 
 /*---------------------------------------contactconfirm */
 
-#message {
+#message-received {
     margin-top: 40px;
 }
 
