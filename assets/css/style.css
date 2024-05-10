@@ -69,7 +69,7 @@ header a {
     color: inherit;
 }
 
-/*-----------------------------------Hero image and callout 
+/*-----------------------------------Hero image with callout overlay 
 code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity 
 ---------------------------------------------------------------------------------------------------*/
 .hero-image{
@@ -208,6 +208,10 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin: 20px 20px;
 }
 
+.larger:hover {
+    font-size: 320%;
+}
+
 /*---------------------------------------Shop page */
 
 #shop-container {
@@ -242,7 +246,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     padding: 5px;
     border: 1px solid slategrey;
     border-radius: 5px;
-
 }
 
 .email-submit {
@@ -273,7 +276,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-right: auto;
     border-radius: 5px;
     margin-top: 40px;
-
 }
 
 .live-info {
@@ -307,9 +309,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
 }
 
-
-
-/* https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive */
+/*thanks to -  https://stackoverflow.com/questions/65616144/how-to-make-html5-audio-player-responsive fro the below code froo resizing 
+the audio player for smaller screens*/
 
 #audio-container {
     width: 200px;
@@ -377,7 +378,6 @@ footer {
     height: 75px;
     width: 100%;
     margin-bottom: 0;
-
 }
 
 footer div {
@@ -403,7 +403,10 @@ footer div {
     list-style-type: none;
     float: left;
     padding-left: 30px;
+}
 
+.media-links li:hover {
+    font-size: 140%;
 }
 
 .contact {
@@ -441,7 +444,7 @@ footer div {
     #logo {
         font-size: 200%;
     }
-    }
+}
 
 @media screen and (max-width: 640px) {
 
@@ -503,7 +506,6 @@ footer div {
         font-size: 45%;
         line-height: 50px;
     }
-
 }    
 
 @media screen and (max-width: 1228px) {
@@ -523,8 +525,6 @@ footer div {
         font-size: 45%;
         line-height: 50px;
     }
-    
-
 }
 
 @media screen and (max-width: 1123px) {
@@ -557,11 +557,7 @@ footer div {
         font-size: 40%;
         line-height: 50px;
     }
-    
-
 }
-
-
 
 @media screen and (max-width: 903px) {
     .quote {
@@ -703,7 +699,6 @@ footer div {
     #mail-call p {
         display: none;
     }
-    
 }
 
 /*---------------------------------------responsive mailinglist page */
