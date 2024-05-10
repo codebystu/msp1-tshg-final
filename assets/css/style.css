@@ -122,6 +122,8 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     background-color: #faebd7;
   }
 
+/* Box shadow code from https://www.w3schools.com/css/css3_buttons.asp */
+
   .button:hover {
     text-decoration: none;
     color: inherit;
@@ -329,12 +331,13 @@ the audio player for smaller screens*/
 }
 audio {
     max-height: 100%;
-           max-width: 100%;
-           margin: auto;
-           object-fit: contain;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
 }
 
-/*---------------------------------------contact form*/
+/*---------------------------------------contact form
+for styling help used https://www.w3schools.com/howto/howto_css_stacked_form.asp*/
 
 .contact-form {
     text-align: center;
@@ -347,13 +350,13 @@ audio {
 
 .message-box { 
     width: 60%;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid;
-  border-radius: 4px;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 80%;  
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 80%;  
 } 
 
 /*---------------------------------------contactconfirm */
@@ -374,12 +377,6 @@ audio {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-}
-
-/*---------------------------------------stream */
-
-.band-store {
-    font-size: 200%;
 }
 
 /*---------------------------------------footer*/
@@ -448,7 +445,6 @@ footer div {
         line-height: 10px;
     }
 }
-
 
 @media screen and (max-width: 800px) {
     #logo {
@@ -688,47 +684,3 @@ footer div {
         height: 150px;
     }  
 }
-
-/*---------------------------------------responsive mailinglist page */
-/* 
-@media screen and (max-width: 750px) {
-
-    #mailing-image img{
-        display: none;
-
-    }
-
-    #easter-egg {
-        margin-top: 150px;
-    }
-
-    #hero-image img {
-        display: none;
-    }
-
-    #mail-call p {
-        display: none;
-    }
-} */
-
-/*---------------------------------------responsive mailinglist page */
-/* 
-@media screen and (max-width: 750px) {
-
-    #contact-image img{
-        display: none;
-    }
-} */
-
-/*---------------------------------------responsive shows page */
-/* 
-@media screen and (max-width: 750px) {
-    .show-image-container img {
-        display: none;
-    }
-
-    .festy img {
-        display: none;
-    }
-} */
-
