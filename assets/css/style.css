@@ -414,7 +414,18 @@ footer div {
     margin-top: 10px;
 }
 
+/*---------------------------------------404 page*/
 
+.push-down {
+    margin-top: 20%;
+}
+
+.rejoin-button {
+    border: 1px solid slategrey;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
 
 /*---------------------------------------responsive styling header*/
 
