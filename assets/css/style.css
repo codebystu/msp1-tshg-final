@@ -6,13 +6,12 @@
     border: 0; 
 }
 
-
 /*---------------------------------------Colors */
 
 body {
-    background-color: antiquewhite;
+    background-color: #faebd7;
     font-family: "Poppins", sans-serif;
-    color: slategrey;
+    color: #2d4219;
 }
 
 /* make all images black and white - code from https://www.w3schools.com/howto/howto_css_image_bw.asp*/
@@ -32,7 +31,7 @@ img {
 /*--- Header and Nav code adapted from Love Running Project on Code Institute*/
 
 header {
-    background-color: antiquewhite;
+    background-color: inherit;
     height: 75px;
 }  
 
@@ -42,7 +41,7 @@ header {
     font-size: 200%;
     text-transform: uppercase;
     margin-left: 20px;
-    color: slategrey;
+    color: inherit;
     float: left;
 }
 
@@ -103,7 +102,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     text-wrap: nowrap;
-    color: inherit;
   }
 
   .callout-text {
@@ -118,12 +116,10 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     opacity: 1;
   }
 
-
   .button {
     text-decoration: none;
     color: inherit;
-    background-color: antiquewhite;
-   
+    background-color: #faebd7;
   }
 
   .button:hover {
@@ -169,7 +165,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     font-size: 50%;
     line-height: 50px;
 }
-
 
 #history {
     text-align: center;
@@ -242,16 +237,16 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 .form-field {
-    background-color: antiquewhite;
+    background-color: inherit;
     padding: 5px;
-    border: 1px solid slategrey;
+    border: 1px solid;
     border-radius: 5px;
 }
 
 .email-submit {
     margin-top: 20px;
     padding: 5px;
-    border: 1px solid slategrey;
+    border: 1px solid;
     border-radius: 5px;
 }
 
@@ -340,7 +335,7 @@ audio {
     width: 60%;
   padding: 12px 20px;
   display: inline-block;
-  border: 1px solid slategrey;
+  border: 1px solid;
   border-radius: 4px;
   box-sizing: border-box;
   text-align: center;
@@ -425,7 +420,7 @@ footer div {
 }
 
 .rejoin-button {
-    border: 1px solid slategrey;
+    border: 1px solid;
     border-radius: 5px;
     padding-left: 2px;
     padding-right: 2px;
@@ -708,7 +703,6 @@ footer div {
 
     #contact-image img{
         display: none;
-
     }
 }
 
