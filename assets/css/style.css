@@ -149,12 +149,12 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     text-align: center;
 }
 
-.bob {
+.left {
     float: left;
     margin-left: 25%;
 }
 
-.paul {
+.right {
     float: right;
     margin-right: 25%;
 }
@@ -533,12 +533,13 @@ footer div {
         width: 25%;
         text-align: center;
     }
-    .bob {
+
+    .left {
         float: left;
         margin-left: 20%;
     }
     
-    .paul {
+    .right {
         float: right;
         margin-right: 20%;
     }
@@ -569,12 +570,12 @@ footer div {
         text-align: center;
     }
 
-    .bob {
+    .left {
         float: left;
         margin-left: 10%;
     }
     
-    .paul {
+    .right {
         float: right;
         margin-right: 10%;
     }
@@ -587,12 +588,12 @@ footer div {
         text-align: center;
     }
 
-    .bob {
+    .left {
         float: left;
         margin-left: 10%;
     }
     
-    .paul {
+    .right {
         float: right;
         margin-right: 10%;
     }
@@ -605,12 +606,12 @@ footer div {
         text-align: center;
     }
 
-    .bob {
+    .left {
         float: left;
         margin-left: 5%;
     }
     
-    .paul {
+    .right {
         float: right;
         margin-right: 5%;
     }
@@ -638,13 +639,13 @@ footer div {
         text-align: center;
     }
 
-    .bob {
+    .left {
         float: none;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .paul {
+    .right {
         float: none;
         margin-left: auto;
         margin-right: auto;
