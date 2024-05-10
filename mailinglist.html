@@ -11,11 +11,14 @@
 <title>The Self Help Group</title>
 </head>
 <body>
-    <!--Header with logo and menu fixed to top-->
+<!--Header with logo and menu fixed to top-->
     <header class="fixed-top">
+<!--Logo start-->
         <a href="index.html" class="button">
             <h1 id="logo">The Self Help Group</h1>
         </a>
+<!--Logo End-->  
+<!--Main Nav start-->  
         <div class="center">
             <ul id="menu">
                 <li>
@@ -32,37 +35,36 @@
                 </li>
             </ul>
         </div>
+<!--Main Nav end-->
     </header>
-    <!--End Header-->
-
-    <!--hero image with callout to buy or stream new album
+<!--End Header-->
+<!--hero image with callout to buy or stream new album
     code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity-->
-        <div id="hero-image" class="image-overlay hero-image">
-            <img src="assets/images/herobanner.jpg" alt="band members standing in a row wearing sunglasses and baseball caps" class="image">
-            <div class="callout">
-                <div id="mail-call" class="callout-text">
-                    <p>Dream of a Ghost</p>
-                    <p>available now</p>
-                    <p><a href="stream.html" class="button add-to-cart">Stream / Download</a>
-                </div>
+    <div id="hero-image" class="image-overlay hero-image">
+        <div class="callout">
+            <img src="assets/images/herobanner.jpg" alt="band members standing in a row wearing sunglasses and baseball caps" class="image">            <div class="callout">
+            <div id="mail-call" class="callout-text">
+                <p>Dream of a Ghost</p>
+                <p>available now</p>
+                <p><a href="stream.html" class="button add-to-cart">Stream / Download</a>
             </div>
         </div>
-    <!--End Callout--> 
- 
- <div id="easter-egg" class="align-center">
-    <p>Congratulations</p>
-    <p>you have found the hidden bonus track!</p>
-    <p>The Make Believe Band</p>
- </div> 
+    </div>
+<!--End Callout--> 
+<!--Start Easter egg bonus content--> 
+    <div id="easter-egg" class="align-center">
+        <p>Congratulations</p>
+        <p>you have found the hidden bonus track!</p>
+        <p>The Make Believe Band</p>
+    </div> 
 
-<!--audioplayer code from   https://www.w3schools.com/html/html5_audio.asp     
+<!--Start audioplayer, code from   https://www.w3schools.com/html/html5_audio.asp     
     and https://stackoverflow.com/questions/42517144/how-do-i-remove-the-download-option-in-the-html5-audio-tag 
-    currently unable to include  controlsList="nodownload" in the audio element as does not pass w3c validation 
-    due to it not yet being supported on all browsers, this boolean blocklist code would be desirable in this 
-    instance as prevents users being able to download without paying-->    
-   <div id="audio-container">
-    <audio controls src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio> 
-</div>  
+    TODO controlsList="nodownload"-->    
+    <div id="audio-container">
+        <audio controls src="assets/audio/makebelieve.mp3">Your browser does not support this audio</audio> 
+    </div>
+<!--End audioplayer-->      
     <div id="mailing-image">
         <img src="assets/images/mailing-img.jpg" alt="A selfie photo of the band standing in front of a wall covered in flyers, the picture has been slightly pixelated with a filter">
      </div>
@@ -70,58 +72,65 @@
         <p>Thanks for signing up</p>
         <p>We hope to see you soon</p>
      </div>
+<!--End Easter egg bonus content-->     
      <hr class="end-page-border">
-    <footer>
-<!--Social Media Links-->               
-<div class="socials">    
-    <ul class="media-links">
-          <li>
-              <a href="https://www.facebook.com/theselfhelpgroup" target="_blank" class="button" aria-label="Facebook">
-                  <i class="fa-brands fa-facebook"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://twitter.com/thegroupies" target="_blank" class="button" aria-label="Twitter">
-                  <i class="fa-brands fa-x-twitter"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://www.instagram.com/theselfhelpgroup/" target="_blank" class="button" aria-label="Instagram">
-                  <i class="fa-brands fa-instagram"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://theselfhelpgroup.bandcamp.com/" target="_blank" class="button" aria-label="Bandcamp">
-                  <i class="fa-brands fa-bandcamp"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://www.youtube.com/@TheSelfHelpGroup" target="_blank" class="button" aria-label="Youtube">
-                  <i class="fa-brands fa-youtube"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://open.spotify.com/artist/5p8d8s6tNOBYt7W9CZ9giU" target="_blank" class="button" aria-label="Spotify">
-                  <i class="fa-brands fa-spotify"></i>
-              </a>
-          </li>
-          <li>
-              <a href="https://music.apple.com/us/artist/the-self-help-group/591881482" target="_blank" class="button" aria-label="Apple music">
-                  <i class="fa-brands fa-apple"></i>
-              </a>
-          </li>
-      </ul>
-  </div>    
-<!--End Social Media Links-->                
+<!--Start footer-->    
+     <footer>
+<!--Start Social Media Links-->               
+        <div class="socials">    
+            <ul class="media-links">
+                <li>
+                    <a href="https://www.facebook.com/theselfhelpgroup" target="_blank" class="button" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/thegroupies" target="_blank" class="button" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/theselfhelpgroup/" target="_blank" class="button" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://theselfhelpgroup.bandcamp.com/" target="_blank" class="button" aria-label="Bandcamp">
+                        <i class="fa-brands fa-bandcamp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@TheSelfHelpGroup" target="_blank" class="button" aria-label="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/5p8d8s6tNOBYt7W9CZ9giU" target="_blank" class="button" aria-label="Spotify">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://music.apple.com/us/artist/the-self-help-group/591881482" target="_blank" class="button" aria-label="Apple music">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>    
+<!--End Social Media Links-->
+<!--Start link to Contact us form-->              
         <div class="contact">
             <a href="contact.html" class="button">Contact Us</a>
         </div>
+<!--End link to Contact us form-->
+<!--Start Copyright info-->        
         <div class="copyright">
            <p><i class="fa-regular fa-copyright"></i> Copyright 2024 The Self Help Group</p> 
         </div>
-    </footer>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<!--End Copyright info-->
+     </footer>   
+<!--End footer-->    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 </html>
