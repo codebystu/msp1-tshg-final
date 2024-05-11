@@ -9,7 +9,7 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Navigation Bar](assets/documents/navbar.png)
 ![Uppercase active and shadow box](assets/documents/linkshadow.png)
 - _Banner Image With Overlay_
-    - Featured on all pages except the 404 page, the responsive banner with overlay introduces the user to the band with an eye catching, wide angle, black and white headshot image of the six members, the black and white theme is reproduced on all images site wide for styling and consistency. There is an overlay when hovering or first tapping on mobile with a callout to stream or download the new album "Dream of a Ghost", with a highlighted link directing the user straight to the stream page. The overlay message and link can be updated, as exampled on the shows page which has details of the next show and a link to the venue website.
+    - Featured on all pages except the 404 page, the responsive banner with overlay introduces the user to the band with an eye catching, wide angle, black and white headshot image of the six members, all images site wide are styled black and white to be consistent with the overall two tone theme. There is an overlay when hovering or first tapping on mobile with a callout to stream or download the new album "Dream of a Ghost", with a highlighted link directing the user straight to the stream page. The overlay message and link can be updated, as exampled on the shows page which has details of the next show and a link to the venue website.
     - This feature allows the user to quickly navigate to key parts of the site which may be of key interest. It can be updated with new release details, show dates, merchandise and ticket availability, providing the band with an opportunity to highlight key information to fans and users.
 ![Banner Image](assets/documents/banner.png)
 ![Overlay Link](assets/documents/overlaylink.png)
@@ -53,7 +53,7 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Message Received](assets/documents/msgreceived.png)
 - _Audio Player_
     - Featured on the mailinglist confirmation page this is intended as an Easter Egg reward for signing up to the mailing list, it features the track "The Make Believe Band" from the new album as bonus content. The player is responsive to screen size and the user has full control over playback. It is followed with a pixelated selfie of the band and a thank you message.
-    - This feature allows the user to hear another track from the band without leaving the site, its location is a pleasant unexpected surprise. Listening to this additional music whilst being encouraged to scroll by the selfie picture will encourage the user to click the footer links to streaming and social media and follow the band.
+    - This feature allows the user to hear another track from the band without leaving the site, its location is a pleasant unexpected surprise. Listening to this additional music whilst being encouraged to scroll by the selfie picture will encourage the user to click the footer links to streaming and social media.
 ![Audio Player](assets/documents/audio.png)
 ![Thank You Message](assets/documents/thankyou.png)
 - _Custom 404 page_
@@ -63,6 +63,6 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
     - A functioning onsite store where users can buy merchandise and music direct from the band.
 ## Development and Testing
 -   Testing and Development documentation can be found on the following link
-![Testing and Development](/TESTING)
+![Testing and Development](/TESTING.md)
 
 
