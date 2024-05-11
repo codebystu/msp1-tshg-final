@@ -1,0 +1,2 @@
+# The Self Help Group
+The Self Help Group are a band from Brighton, UK. The website is targeted at people who want to know more about the band and discover more of their work. It includes a brief history, music and video to enjoy, encouragement to use links to drive traffic to social media and streaming services for additional content, and to raise the bands profile on those platforms, a contact form for bookings and enquiries, show information, mailing list sign up and a small gallery of images from live shows, to encourage future engagement in this environment offline.
