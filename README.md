@@ -1,5 +1,5 @@
 # The Self Help Group
-The Self Help Group are a band from Brighton, UK. The website is targeted at people who want to know more about the band and discover more of their work. The site includes the video from the latest single and another track from the latest album in mp3 format to listen to. Users are encouraged throughout the site to follow the band on social media and streaming platforms, to gain access to additional content and purchase music. A photo gallery of live performances can be enjoyed and details of next live show are highlighted so that users can be informed where and when they can next see a show. Users can sign up to the mailing list for more show information, and there is a contact form which can be used for bookings and enquiries.
+The Self Help Group are a band from Brighton, UK. The website is targeted at people who want to know more about the band and discover more of their work. The site includes the video from the latest single and an additional track from the latest album in mp3 format to listen to. Users are encouraged throughout the site to follow the band on social media and streaming platforms, to gain access to further content and purchase music. A photo gallery of live performances can be enjoyed and details of next live show are highlighted so that users can be informed where and when they can next see a show. Users can sign up to the mailing list for more show information, and there is a contact form which can be used for bookings and enquiries.
 ![Responsive Mockup](assets/documents/responsive.png)
 ## Features
 ### Existing Features
@@ -9,7 +9,7 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Navigation Bar](assets/documents/navbar.png)
 ![Uppercase active and shadow box](assets/documents/linkshadow.png)
 - _Banner Image With Overlay_
-    - Featured on all pages escept the 404 page, the responsive banner with overlay introduces the user to the band with an eye catching wide angle black and white headshot image of the six members, the black and white theme is reproduced on all images site wide for styling and consistency. There is an overlay when hovering or first tapping on mobile with a callout to stream or download the new album "Dream of a Ghost", with a linked button which directs the user straight to the stream page. The overlay message and links can be updated, and when viewed on the shows page they have details of the next show and a link to the venue website.
+    - Featured on all pages except the 404 page, the responsive banner with overlay introduces the user to the band with an eye catching, wide angle, black and white headshot image of the six members, the black and white theme is reproduced on all images site wide for styling and consistency. There is an overlay when hovering or first tapping on mobile with a callout to stream or download the new album "Dream of a Ghost", with a highlighted link directing the user straight to the stream page. The overlay message and link can be updated, as exampled on the shows page which has details of the next show and a link to the venue website.
     - This feature allows the user to quickly navigate to key parts of the site which may be of key interest. It can be updated with new release details, show dates, merchandise and ticket availability, providing the band with an opportunity to highlight key information to fans and users.
 ![Banner Image](assets/documents/banner.png)
 ![Overlay Link](assets/documents/overlaylink.png)
@@ -20,7 +20,7 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Review Quotes](assets/documents/bigquotes.png)
 - _History_
     - Featured on the landing page, this section contains a brief tongue-in-cheek band history and a selection of review quotes from across the years.
-    - This feature will give the user more of a sense of who the band are and what to expect when they hear their music, hopefully encouraging them to seek out more content
+    - This feature will give the user a sense of who the band are and what to expect when they hear their music, hopefully encouraging them to seek out more content
 ![History](assets/documents/history.png)
 - _Footer_
     - Featured on all pages except the 404 page, the footer is separated from the main page body by a bold line, it contains links to the bands landing pages on various social media and streaming sites in the form of site brand icons, which are all reactive to hover with the site wide hover shadow feature, and further accentuated with a subtle font size increase. Below these is a link to the contact form, and then finally copyright information on the bottom line.
@@ -53,10 +53,16 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Message Received](assets/documents/msgreceived.png)
 - _Audio Player_
     - Featured on the mailinglist confirmation page this is intended as an Easter Egg reward for signing up to the mailing list, it features the track "The Make Believe Band" from the new album as bonus content. The player is responsive to screen size and the user has full control over playback. It is followed with a pixelated selfie of the band and a thank you message.
-    - This feature allows the user to hear another track from the band without leaving the site, and its location is a pleasant unexpected surprise. Listening to this additional music whilst being encouraged to scroll by the selfie picture will encourage the user to click the footer links to streaming and social media and follow the band.
+    - This feature allows the user to hear another track from the band without leaving the site, its location is a pleasant unexpected surprise. Listening to this additional music whilst being encouraged to scroll by the selfie picture will encourage the user to click the footer links to streaming and social media and follow the band.
 ![Audio Player](assets/documents/audio.png)
 ![Thank You Message](assets/documents/thankyou.png)
+- _Custom 404 page_
+    - This feature gives an error message on a page styled in the theme of the rest of the site, with a link to get the user back to the main landing page. Useful to users who follow a broken link or if they encounter some other error, they can get back to the main site easily.
 ### Features Left To Implement
     - The gallery section is hard to see on small screens without using pinch actions, click to fullscreen would be valuable for users to fully enjoy the images.
     - A functioning onsite store where users can buy merchandise and music direct from the band.
+## Development and Testing
+-   Testing and Development documentation can be found on the following link
+![Testing and Development](/TESTING)
+
 
