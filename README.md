@@ -58,11 +58,12 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Thank You Message](assets/documents/thankyou.png)
 - _Custom 404 page_
     - This feature gives an error message on a page styled in the theme of the rest of the site, with a link to get the user back to the main landing page. Useful to users who follow a broken link or if they encounter some other error, they can get back to the main site easily.
+![404 page](assets/documents/404.png)
 ### Features Left To Implement
     - The gallery section is hard to see on small screens without using pinch actions, click to fullscreen would be valuable for users to fully enjoy the images.
     - A functioning onsite store where users can buy merchandise and music direct from the band.
 ## Development and Testing
 -   Testing and Development documentation can be found on the following link
-![Testing and Development](/TESTING.md)
+![Testing and Development](http://codebystu.github.io/msp1-tshg-final/testing)
 
 
