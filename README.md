@@ -64,6 +64,6 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
     - A functioning onsite store where users can buy merchandise and music direct from the band.
 ## Development and Testing
 -   Testing and Development documentation can be found on the following link
-![Testing and Development](http://codebystu.github.io/msp1-tshg-final/testing)
+![Testing and Development](TESTING.md)
 
 
