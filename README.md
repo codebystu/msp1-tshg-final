@@ -27,7 +27,7 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
     - This feature enables the user to discover further content on external sites and interact with the band on their social media pages. The contact form enables users who wish to make enquiries about bookings or use of content to get in touch.
 ![Footer](assets/documents/footer.png)
 - _Video Player_
-    - Featured on the watch page, this embeded Youtube video player is responsive to screen size and can be used in full screen mode. It is pre loaded with the video from the latest single. Below is a large icon link to the bands Youtube channel with a callout to subscribe. The video is in colour and features the band swapping brightly coloured t-shirts which was part of the consideration of the overall black and white styling of the entire site. This splash of colour really stands out.
+    - Featured on the watch page, this embeded Youtube video player is responsive to screen size and can be used in full screen mode. It is pre loaded with the video from the latest single, the user has full control over playback. Below is a large icon link to the bands Youtube channel with a callout to subscribe. The video is in colour and features the band swapping brightly coloured t-shirts which was part of the consideration of the overall black and white styling of the entire site. This splash of colour really stands out.
     - This feature enables the user to see and hear the band in action, they can continue to watch further videos, follow the link and subscribe to the bands channel and view additional content. The video player can be updated to show different content in the future.
 ![Video Player](assets/documents/watch.png)
 - _Ghost of a Dream album cover and streaming links_
@@ -36,4 +36,27 @@ The Self Help Group are a band from Brighton, UK. The website is targeted at peo
 ![Stream](assets/documents/stream.png)
 ![Font Enlarge on Hover](assets/documents/fontenlarge.png)
 - _Mailing List sign up_
-    - 
+    - Featured on the Shows page a simple form for the user to enter their email address to receive information about future shows in their inbox, the email entry field is a wide box to catch the eye  and the submit button which has the site wide hover styling and additionally has a solid border to make it stand out to the user as a call to action.
+    - This feature enables users to be kept up to date about upcoming shows, it can be especially useful to users who do not frequent the social media platforms which the band uses and updates most frequently. It provides another means for the band to reach out to and interact with it's fanbase, about merchandise, new releases and shows.
+![Mailing List](assets/documents/mailinglist.png)
+- _Gallery_
+    - Featured on the Shows page the gallery shows a number of black and white images of the band in action on various stages in different settings. The purpose of the content is to encourage the user to attend a live show,
+    - This feature enables the user to enjoy pictures of the band in various venues and locations. The pictures can be updated to stay current.
+![Gallery](assets/documents/gallery.png)
+- _Contact Form_
+    - Featured on the Contact page, which is branched off of the main site content, reached by clicking the "Contact Us" link located in the footer. This simple contact form is validated requiring name, email and message fields all to be filled in. The submit button is styled with the additional border to match the submit button for the mailing list form.
+    - This feature enables the user to contact the band. Useful to those who wish to enquire about bookings, availability, or media queries amongst others.
+![Contact Form](assets/documents/contactform.png)
+- _Contact Confirmation_
+    - Featured on the contactconfirm page, which is branched off of the main site content. It is accessed when a user submits a valid contact form enquiry, lets the user know their message has been received and includes all of the usual links back to the main site so the user can continue browsing
+    - The user gains confirmation that their message submit has been succesful and are reassured that their enquiry will receive a response soon.
+![Message Received](assets/documents/msgreceived.png)
+- _Audio Player_
+    - Featured on the mailinglist confirmation page this is intended as an Easter Egg reward for signing up to the mailing list, it features the track "The Make Believe Band" from the new album as bonus content. The player is responsive to screen size and the user has full control over playback. It is followed with a pixelated selfie of the band and a thank you message.
+    - This feature allows the user to hear another track from the band without leaving the site, and its location is a pleasant unexpected surprise. Listening to this additional music whilst being encouraged to scroll by the selfie picture will encourage the user to click the footer links to streaming and social media and follow the band.
+![Audio Player](assets/documents/audio.png)
+![Thank You Message](assets/documents/thankyou.png)
+### Features Left To Implement
+    - The gallery section is hard to see on small screens without using pinch actions, click to fullscreen would be valuable for users to fully enjoy the images.
+    - A functioning onsite store where users can buy merchandise and music direct from the band.
+
