@@ -270,7 +270,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-top: 40px;
     column-count: 3;
     column-gap: 30px;
-    line-height: 250px;
+    line-height: 500px;
     
 }
 
@@ -285,7 +285,7 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .live-info {
@@ -694,6 +694,13 @@ footer div {
 
 /*---------------------------------------responsive gallery */
 
+@media screen and (max-width: 1250px) {
+    
+    .show-image-container {
+        line-height: 300px;
+    }
+}
+
 @media screen and (max-width: 850px) {
 
     .show-image-container {
@@ -701,7 +708,7 @@ footer div {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .show-image-container {
         column-count: 1;
         line-height: 300px;
