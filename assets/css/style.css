@@ -280,7 +280,6 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
 }
 
 .festy img {
-    /* clear: both; */
     display: block;
     max-width: 90%;
     margin-left: auto;
@@ -695,7 +694,7 @@ footer div {
 
 /*---------------------------------------responsive gallery */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
 
     .show-image-container {
         column-count: 2;
