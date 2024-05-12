@@ -399,7 +399,7 @@ footer div {
 }
 
 .media-links {
-   width: 350px;
+   width: 300px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -408,7 +408,7 @@ footer div {
     font-size: 120%;
     list-style-type: none;
     float: left;
-    padding-left: 25px;
+    padding-left: 22px;
 }
 
 .media-links li:hover {
@@ -491,7 +491,11 @@ footer div {
         line-height: 2px;
     }
 }
-    
+   
+@media screen and (max-width: 320px) {
+    #logo {
+        font-size: 150%;
+}
 /*---------------------------------------responsive styling review quotes*/    
 
 @media screen and (max-width: 1477px) {
