@@ -268,16 +268,19 @@ code adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_
     margin-right: 5%;
     height: auto;
     margin-top: 40px;
+    column-count: 3;
+    column-gap: 30px;
+    line-height: 250px;
+    
 }
 
 .show-image-container img {
-    display: inline-block;
-    max-width: 30%;
+    width: 100%;
     border-radius: 5px;
-    margin-left: 2%;
 }
 
 .festy img {
+    /* clear: both; */
     display: block;
     max-width: 90%;
     margin-left: auto;
@@ -436,7 +439,7 @@ footer div {
     padding-right: 2px;
 }
 
-/*---------------------------------------responsive styling header*/
+/*---------------------------------------responsive styling header and banner*/
 
 @media screen and (max-width: 1000px) {
     .callout-text {
@@ -495,7 +498,9 @@ footer div {
 @media screen and (max-width: 320px) {
     #logo {
         font-size: 150%;
+    }
 }
+
 /*---------------------------------------responsive styling review quotes*/    
 
 @media screen and (max-width: 1477px) {
@@ -687,3 +692,20 @@ footer div {
         height: 150px;
     }  
 }
+
+/*---------------------------------------responsive gallery */
+
+@media screen and (max-width: 650px) {
+
+    .show-image-container {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .show-image-container {
+        column-count: 1;
+        line-height: 300px;
+    }
+}
+
