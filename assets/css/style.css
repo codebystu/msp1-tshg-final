@@ -408,7 +408,7 @@ footer div {
     font-size: 120%;
     list-style-type: none;
     float: left;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .media-links li:hover {
@@ -471,7 +471,7 @@ footer div {
         width: 300px;
         position: fixed;
         left: 50%;
-        margin-left: -165px;
+        margin-left: -150px;
         padding-bottom: 20px;
 
     }
