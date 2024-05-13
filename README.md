@@ -2,6 +2,7 @@
 This is a static website for The Self Help Group, a band from Brighton, UK.
 They write and record their own original material in an indie-folk-Americana style and play live shows largely in the Sussex area and around the south of England.
 The website is a channel of communication with fans, media and people who book live shows for venues and festivals, and can be used to drive traffic to and increase the profile of the band on social media platforms.
+The live site can be found [here](http://codebystu.github.io/msp1-tshg-final)
 
 ![Responsive Mockup](assets/documents/responsive.png)
 
@@ -52,8 +53,8 @@ Designed with accessibility at the forefront, a simple, clean, two tone, high co
     - This feature will give the user a sense of who the band are and what to expect when they hear their music, hopefully encouraging them to seek out more content
 ![History](assets/documents/history.png)
 - _Footer_
-    - Featured on all pages except the 404 page, the footer is separated from the main page body by a bold line, it contains links to the bands landing pages on various social media and streaming sites in the form of site brand icons, which are all reactive to hover with the site wide hover shadow feature, and further accentuated with a subtle font size increase. Below these is a link to the contact form, and then finally copyright information on the bottom line.
-    - This feature enables the user to discover further content on external sites and interact with the band on their social media pages. The contact form enables users who wish to make enquiries about bookings or use of content to get in touch.
+    - Featured on all pages except the 404 page, the footer is separated from the main page body by a bold line, it contains links to the bands landing pages on various social media and streaming sites in the form of site brand icons, which are all reactive to hover with the site wide hover shadow feature, and further accentuated with a subtle font size increase. All navgable links leading to external sites open in a new window to maintain the users position on the website and increase dwelltime. Below these is a link to the contact form, and then finally copyright information on the bottom line.
+    - This feature enables the user to discover further content on external sites and interact with the band on their social media pages. The contact form enables users who wish to make enquiries about bookings or any other reason to get in touch.
 ![Footer](assets/documents/footer.png)
 - _Video Player_
     - Featured on the watch page, this embeded Youtube video player is responsive to screen size and can be used in full screen mode. It is pre loaded with the video from the latest single, the user has full control over playback. Below is a large icon link to the bands Youtube channel with a callout to subscribe. The video is in colour and features the band swapping brightly coloured t-shirts which was part of the consideration of the overall black and white styling of the entire site. This splash of colour really stands out.
@@ -90,7 +91,8 @@ Designed with accessibility at the forefront, a simple, clean, two tone, high co
 ![404 page](assets/documents/404.png)
 ### Features Left To Implement
 -   _Future features_
-    - The footer is not responsive, it is simply a stacked style.
+    - Horizontal slide show scrolling type menu of video content with multipl band videos to choose from.
+    - Additional audio clips.
     - A functioning onsite store where users can buy merchandise and music direct from the band.
     - Updated content, every song is based on a real life story of human endeavour, some inspiring, some heartbreaking and some just very odd..
 ## Testing
@@ -105,14 +107,12 @@ Designed with accessibility at the forefront, a simple, clean, two tone, high co
   - From the source drop down menu select GitHub Actions
   - Click the "browse all workflows" link
   - Scroll down to the Pages heading and click on the Configure button in the Static HTML box
-  - Click the green coloured Commit changes... button in the top right corner of the window
-  - A pop up will appear with a pre filled commit message of "Create static.yml" an additional text box is available to add an optional extended description. Select "Commit directly to the main branch" from the radio buttons (this is default) and click the green "Commit changes" button.
-  - You are redirected to the workflow page of the repository which shows the last commit with the .yml file.
+  - Click the green coloured Commit changes button in the top right corner of the window
+  - A pop up will appear with a pre filled commit message of "Create static.yml" an additional text box is available to add an optional extended description. Select "Commit directly to the main branch" from the radio buttons (this is default option) and click the green "Commit changes" button.
+  - You are redirected to the workflow page of the repository which shows the last commit with the .yml file added.
   - Navigate back to the repository and you will see a deployment section in the right hand menu below Packages.
   - This will have a status of queued if deployment is still in progress. Once the site is deployed there will be a green tick and a link to the repository deployments section. The link in the top box will show the url for your deployed site. Below is a list of all deployments.
-
-The live link can be found here - http://codebystu.github.io/msp1-tshg-final 
-
+ 
 ## Credits
 ### Media
 - All images are taken from the Facebook page of The Self Help Group [here](https://www.facebook.com/theselfhelpgroup)
@@ -125,7 +125,7 @@ The live link can be found here - http://codebystu.github.io/msp1-tshg-final
 - The quote from Bob Harris was made on his radio 2 program and is taken from a sticker on the album cover for "Not waving, but drowning"
 - The quote from Paul McGee is taken from the album review for Dream of a Ghost found [here](https://www.lonesomehighway.com/music-reviews/2024/1/22/new-album-reviews?fbclid=IwZXh0bgNhZW0CMTAAAR2uX_sBcdC05Ft-IHIPa5Ja3LUbzCpkrfiuAXgFFCH_YnqRZVyRTd3BoV8_aem_AS3ZoS_--qmCAldpguyzbAwmbPDnLVsvwNPMC1rCVKLHoVsczdU44t0wBJMOEyfOQ4ggjCPwPs8hChxQi3rOVg8D)
 - The navbar used code from the Code Institute Love Runnings project [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/5de58e6393f84a958bc3342b8e4c987a/)
-- The menu was centred on small screens with code from and replicated [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-make-elements-float-to-center/)
+- The menu was centred on small screens with code from [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-make-elements-float-to-center/)
 - The header was fixed to the top of the screen using the "fixed-top" class  [Bootstrap](https://getbootstrap.com/)
 - The image overlay feature was adapted from [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)
 - The Brand Icon images used for links are from [FontAwesome](https://fontawesome.com/)
