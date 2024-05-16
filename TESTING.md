@@ -1,6 +1,6 @@
 # The Self Help Group
 Find the deployed site [Here](https://codebystu.github.io/msp1-tshg-final)
-![Responsive](assets/documents/responsive.png)
+![Responsive](documents/responsive.png)
 Testing was carried out throughout the development of the site, all visual components and layout design were viewed on a variety of screen sizes before during and after styling using Google Dev Tools in the Chrome browser, and following the completion of each page further testing was carried out on Firefox and Edge on my laptop and Safari on an iphone 11, iphone 6s and ipad air 2, both for a visual check of layout and to test all feature and link functionality. I dont have access to any android devices so sent site link to a friend with a Samsung phone, who reported no broken links or obvious visual errors.
 Automated testing was carried out using a variety of web applications.
 ## Manual Testing
@@ -68,7 +68,7 @@ Colour contrast tested using [Coolors](https://coolors.co/contrast-checker/2d421
 [WAVE](https://wave.webaim.org/report#/https://codebystu.github.io/msp1-tshg-final/index.html) reports no accessibility issues across the site, with aria labelling and alt text present where required.
 ### Lighthouse Performance
 #### Initial Tests
-Initial testing for performance on Lighthouse showed scores above 90% for all 4 main pages,  [Home](assets/documents/testing/lighthouse/homedt1.png), [Watch](assets/documents/testing/lighthouse/watchdt1.png), [Stream](assets/documents/testing/lighthouse/streamdt1.png) and [Shows](assets/documents/testing/lighthouse/streamdt1.png) on desktop devices. Mobile device test scores showed degraded performance due to initial load time of images, with the  gallery on the shows page reducing performance to just 60% [Home](assets/documents/testing/lighthouse/homemobile1.png) [Watch](assets/documents/testing/lighthouse/watchmobile1.png) [Stream](assets/documents/testing/lighthouse/streammobile1.png) [Shows](assets/documents/testing/lighthouse/showsmobile1.png). I still needed to apply aria labelling and alt test to links and images resulting in lower scores for accessibility across all pages. 
+Initial testing for performance on Lighthouse showed scores above 90% for all 4 main pages,  [Home](documents/testing/lighthouse/homedt1.png), [Watch](documents/testing/lighthouse/watchdt1.png), [Stream](documents/testing/lighthouse/streamdt1.png) and [Shows](documents/testing/lighthouse/streamdt1.png) on desktop devices. Mobile device test scores showed degraded performance due to initial load time of images, with the  gallery on the shows page reducing performance to just 60% [Home](documents/testing/lighthouse/homemobile1.png) [Watch](documents/testing/lighthouse/watchmobile1.png) [Stream](documents/testing/lighthouse/streammobile1.png) [Shows](documents/testing/lighthouse/showsmobile1.png). I still needed to apply aria labelling and alt test to links and images resulting in lower scores for accessibility across all pages. 
 #### Suggested Fixes
 - Compress all images
 - Add aria labelling to links
@@ -77,21 +77,21 @@ Initial testing for performance on Lighthouse showed scores above 90% for all 4 
 Post implementation all scores improved across all devices except Best Practice on the Watch page which remained at 78% due to third party cookies being present in the code of the embedded video from YouTube, over which I have no control.
 Final test results can be seen below
 - _Desktop_
-    - [Home](assets/documents/testing/lighthouse/homedt2.png)
-    - [Watch](assets/documents/testing/lighthouse/watchdt2.png)
-    - [Stream](assets/documents/testing/lighthouse/streamdt2.png)
-    - [Shows](assets/documents/testing/lighthouse/showsdt2.png)
-    - [Contact Form](assets/documents/testing/lighthouse/contactdt.png)
-    - [Contact Confirmation](assets/documents/testing/lighthouse/ccdt.png)
-    - [Mailing List](assets/documents/testing/lighthouse/mailingdt.png)
+    - [Home](documents/testing/lighthouse/homedt2.png)
+    - [Watch](documents/testing/lighthouse/watchdt2.png)
+    - [Stream](documents/testing/lighthouse/streamdt2.png)
+    - [Shows](documents/testing/lighthouse/showsdt2.png)
+    - [Contact Form](documents/testing/lighthouse/contactdt.png)
+    - [Contact Confirmation](documents/testing/lighthouse/ccdt.png)
+    - [Mailing List](documents/testing/lighthouse/mailingdt.png)
 - _Mobile_
-     - [Home](assets/documents/testing/lighthouse/homemob2.png)
-    - [Watch](assets/documents/testing/lighthouse/watchmob2.png)
-    - [Stream](assets/documents/testing/lighthouse/streammob2.png)
-    - [Shows](assets/documents/testing/lighthouse/showsmob2.png)
-    - [Contact Form](assets/documents/testing/lighthouse/contactmob.png)
-    - [Contact Confirmation](assets/documents/testing/lighthouse/ccmob.png)
-    - [Mailing List](assets/documents/testing/lighthouse/mailingmob.png)
+     - [Home](documents/testing/lighthouse/homemob2.png)
+    - [Watch](documents/testing/lighthouse/watchmob2.png)
+    - [Stream](documents/testing/lighthouse/streammob2.png)
+    - [Shows](documents/testing/lighthouse/showsmob2.png)
+    - [Contact Form](documents/testing/lighthouse/contactmob.png)
+    - [Contact Confirmation](documents/testing/lighthouse/ccmob.png)
+    - [Mailing List](documents/testing/lighthouse/mailingmob.png)
 ### W3Validator HTML
    - All pages pass [W3Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcodebystu.github.io%2Fmsp1-tshg-final%2F) with no errors.
 ### Jigsaw Validator CSS
