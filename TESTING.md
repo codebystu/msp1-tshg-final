@@ -100,6 +100,11 @@ Final test results can be seen below
 ## Bugs
 | Bug | Cause | Fix Applied | Fix Succesful? |
 | --- | --- | --- | --- |
+| Banner overlay, not aligned with the image | Incorrect use of `position: relative` | use `position: absolute` | yes |
+| Big quotes bleeding into History section on smaller screens | Not enough media query breakpoints identified | Manual resizing of screen to find additional breakpoints required | yes |
+| Menu bleeding into banner image on smaller screens following renaming of menu items | new menu names have additional and wider characters causing overflow | alter positioning parameters in CSS code | yes |
+
+
 
 
 ## Software Limitation
