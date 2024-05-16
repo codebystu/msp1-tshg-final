@@ -1,7 +1,7 @@
 # The Self Help Group
 This is a static website for The Self Help Group, a band from Brighton, UK.
 They write and record their own original material in an indie-folk-Americana style and play live shows largely in the Sussex area and around the south of England.
-The website is a channel of communication with fans, media and people who book live shows for venues and festivals, and can be used to drive traffic to and increase the profile of the band on social media platforms.
+The website is a channel of communication with fans, media and people who book live shows for venues and festivals, and can be used to both drive traffic to, and increase the profile of, the band on social media platforms.
 The live site can be found [here](http://codebystu.github.io/msp1-tshg-final)
 
 ![Responsive Mockup](assets/documents/responsive.png)
@@ -14,18 +14,21 @@ The live site can be found [here](http://codebystu.github.io/msp1-tshg-final)
     - Users representing venues and show organisers will additionally be looking for contact details and reviews.
 
 ## Software and Languages used
-- Balsamiq
-- Git
-- Github
-- Gitpod
-- VScode
-- HTML
-- CSS
-- Bootstrap
-- Google Devtools
+- [Balsamiq](https://balsamiq.com/) used for wireframe
+- [Git](https://git-scm.com/) for version control
+- [Github](https://github.com/) for repository and page deployment
+- [Gitpod](https://www.gitpod.io/) the IDE I was originally using but was found to be unreliable
+- [VScode](https://code.visualstudio.com/) my IDE of choice now
+- HTML language used to place the content
+- CSS  language used to style the content
+- Markdown  language used to create the README.md and TESTING.md files
+- [Bootstrap](https://getbootstrap.com/) used to fix the header to the top of the page
+- [Fontawesome](https://fontawesome.com/) for the social media icons
+- [Google Fonts](https://fonts.google.com/) for font pairings and importing to project
+- [Google Devtools](https://developer.chrome.com/docs/devtools) for testing and development
 
 ## Accessibility
-Designed with accessibility at the forefront, a simple, clean, two tone, high contrast colour scheme, is consistently applied throughout the site. The colour scheme was tested for contrast using [https://coolors.co/contrast-checker] aria labelling is used on all navigable links and alt descriptions on all images. HTML semantic markup rules are followed. 
+Designed with accessibility at the forefront, a simple, clean, two tone, high contrast colour scheme, is consistently applied throughout the site. The colour scheme was tested for contrast using [Coolors](https://coolors.co/contrast-checker), aria labelling is used on all navigable links and alt descriptions on all images. HTML semantic markup rules are followed. 
 
 ### Original wireframe design
 ![wireframe](assets/documents/wireframe.png)
@@ -91,7 +94,7 @@ Designed with accessibility at the forefront, a simple, clean, two tone, high co
 ![404 page](assets/documents/404.png)
 ### Features Left To Implement
 -   _Future features_
-    - Horizontal slide show scrolling type menu of video content with multipl band videos to choose from.
+    - Horizontal slide show scrolling type menu of video content with multiple band videos to choose from.
     - Additional audio clips.
     - A functioning onsite store where users can buy merchandise and music direct from the band.
     - Updated content, every song is based on a real life story of human endeavour, some inspiring, some heartbreaking and some just very odd..
@@ -120,10 +123,10 @@ Designed with accessibility at the forefront, a simple, clean, two tone, high co
 - The .mp3 audio file is taken from a download of their new album.
 - The text for the history section is taken from The Self Help Group bandcamp page [here](https://theselfhelpgroup.bandcamp.com/contact?b=2425761422&n=The%20Self%20Help%20Group) 
 - All of the above are used with the express permission of song writer and lead singer Mark Bruce. Many thanks my friend.
-![Permission]
 ### Content
 - The quote from Bob Harris was made on his radio 2 program and is taken from a sticker on the album cover for "Not waving, but drowning"
 - The quote from Paul McGee is taken from the album review for Dream of a Ghost found [here](https://www.lonesomehighway.com/music-reviews/2024/1/22/new-album-reviews?fbclid=IwZXh0bgNhZW0CMTAAAR2uX_sBcdC05Ft-IHIPa5Ja3LUbzCpkrfiuAXgFFCH_YnqRZVyRTd3BoV8_aem_AS3ZoS_--qmCAldpguyzbAwmbPDnLVsvwNPMC1rCVKLHoVsczdU44t0wBJMOEyfOQ4ggjCPwPs8hChxQi3rOVg8D)
+### Code
 - The navbar used code from the Code Institute Love Runnings project [here](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/5de58e6393f84a958bc3342b8e4c987a/)
 - The menu was centred on small screens with code from [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-make-elements-float-to-center/)
 - The header was fixed to the top of the screen using the "fixed-top" class  [Bootstrap](https://getbootstrap.com/)
