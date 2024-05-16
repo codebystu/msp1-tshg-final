@@ -3,6 +3,13 @@ Find the deployed site [Here](https://codebystu.github.io/msp1-tshg-final)
 ![Responsive](documents/responsive.png)
 Testing was carried out throughout the development of the site, all visual components and layout design were viewed on a variety of screen sizes before during and after styling using Google Dev Tools in the Chrome browser, and following the completion of each page further testing was carried out on Firefox and Edge on my laptop and Safari on an iphone 11, iphone 6s and ipad air 2, both for a visual check of layout and to test all feature and link functionality. I dont have access to any android devices so sent site link to a friend with a Samsung phone, who reported no broken links or obvious visual errors.
 Automated testing was carried out using a variety of web applications.
+## User Satisfaction
+    - Users can easily navigate the site, menu items clearly define what content will be accessed on the link, and all links work.
+    - Users can access a brief history of the band and can watch a video and listen to an mp3 file.
+    - Users can use included links to the bands pages on social media and streaming platforms, to access additional content from the band.
+    - Users are able to purchase music and merchandise from linked sites such as bandcamp, and tickets if available from linked venue websites, they can join the mailing list to get regular updates on live shows.
+    - Users who need to contact the band can do so through the contact form. 
+    - Users looking for testimonials and reviews can read some on the landing page and on external social media links.
 ## Manual Testing
 ### Feature Tests
 #### Navbar

@@ -18,10 +18,10 @@ I used [Fontpair](https://www.fontpair.co/all) to select two similar yet distinc
 ### User Stories
 -   _Users visiting the site may have a number of different missions._
     - As a new user, I want the site to be intuitive and navigable, so that I know where I am on the site and where I can get to.
-    - As a user who has just discovered the band, I want to find out some basic information about the band and see/hear some music, so that I can get to know them better.
+    - As a user who has just discovered the band, I want to find out some basic information about the band and see /hear some music, so that I can get to know them better.
     - As a returning user, I want to be able to find links to other platforms, so that I can discover / access more of their work.
     - As an established fan, I want to be able to purchase merchandise, music and tickets to live shows, so that I can own some of their work and see them perform live.
-    - As a user who books shows for venues or media, I want to be able to contact the band, to enquire about availability and fees. 
+    - As a user who books shows for venues or media, I want to be able to contact the band, to enquire about availability and fees, see or hear some of the bands music and read testimonials and reviews. 
 
 ### Original wireframe design
 ![wireframe](documents/wireframe.png)
